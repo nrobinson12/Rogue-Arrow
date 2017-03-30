@@ -1,0 +1,75 @@
+Initialize engine version: 5.5.0x1-CollabPreview (09b457573f85)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     2111 MB
+    Driver:   20.19.15.4501
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.184 seconds
+Platform assembly: C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Nick\Documents\GitHub\Rogue-Arrow\rUN_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.781132 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.752287 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1658.
+Total: 1.289480 ms (FindLiveObjects: 0.193975 ms CreateObjectMapping: 0.135111 ms MarkObjects: 0.917332 ms  DeleteObjects: 0.041876 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.285231 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1335.
+Total: 1.392591 ms (FindLiveObjects: 0.197530 ms CreateObjectMapping: 0.103111 ms MarkObjects: 1.059554 ms  DeleteObjects: 0.031209 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at LevelManager+<RespawnPlayerCo>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String)
+LevelManager:RespawnPlayer()
+HealthManager:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at LevelManager+<RespawnPlayerCo>c__Iterator0.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine(String, Object)
+UnityEngine.MonoBehaviour:StartCoroutine(String)
+LevelManager:RespawnPlayer()
+HealthManager:Update()
+ 
+(Filename:  Line: -1)
+
+Charging
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pew
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.233972 ms
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 283.
+Total: 1.282369 ms (FindLiveObjects: 0.057283 ms CreateObjectMapping: 0.054913 ms MarkObjects: 0.420345 ms  DeleteObjects: 0.748641 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: cec -> priority: 1 
