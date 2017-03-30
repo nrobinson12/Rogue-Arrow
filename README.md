@@ -10,5 +10,5 @@ This is a game made in Unity Game Engine.
 4. Click "Open" and find the folder you downloaded and select it
 
 ----TO JUST PLAY GAME----
-1. Download only the "Builds" folder
-2. Extract and run the .exe
+1. Download only the "Builds" folder (or the whole repository)
+2. Extract and run the .exe in the "Builds" folder
