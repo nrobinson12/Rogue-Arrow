@@ -43,14 +43,10 @@ public class NinjaStarController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)		//If anything collides with arrow
     {
-        if (other.tag == "Enemy" || other.tag == "FlyingEnemy")		//If who collided with it was an enemy,
+        if (other.tag == "Enemy")		//If who collided with it was an enemy,
         {
             if (GetComponent<Rigidbody2D>().velocity != Vector2.zero)	//If arrow is still moving (and not just on the ground),
             {
-                //Instantiate(enemyDeathEffect, other.transform.position, other.transform.rotation);	//Play death particle on enemy
-                //Destroy(other.gameObject);		//Destroy enemy
-                //Destroy(gameObject);		//Destroy arrow	
-                //ScoreManager.AddPoints(pointsForKill);		//Add points for kill
 
                 other.GetComponent<EnemyHealthManager>().giveDamage(damageToGive);
 
